@@ -2303,87 +2303,87 @@ let pre_first =
     },
     {
       en: "eventually",
-      ja: "（副）ついに"
+      ja: "ついに"
     },
     {
       en: "otherwise",
-      ja: "（副）そうでなければ"
+      ja: "そうでなければ"
     },
     {
       en: "relatively",
-      ja: "（副）比較的"
+      ja: "比較的"
     },
     {
       en: "apparently",
-      ja: "（副）聞いたところでは"
+      ja: "聞いたところでは"
     },
     {
       en: "previously",
-      ja: "（副）以前に"
+      ja: "以前に"
     },
     {
       en: "elsewhere",
-      ja: "（副）どこか他のところで"
+      ja: "どこか他のところで"
     },
     {
       en: "virtually",
-      ja: "（副）ほとんど"
+      ja: "ほとんど"
     },
     {
       en: "aside",
-      ja: "（副）わきに"
+      ja: "わきに"
     },
     {
       en: "briefly",
-      ja: "（副）少しの間"
+      ja: "少しの間"
     },
     {
       en: "altogether",
-      ja: "（副）完全に"
+      ja: "完全に"
     },
     {
       en: "definitely",
-      ja: "（副）間違いなく"
+      ja: "間違いなく"
     },
     {
       en: "constantly",
-      ja: "（副）絶えず"
+      ja: "絶えず"
     },
     {
       en: "consequently",
-      ja: "（副）その結果"
+      ja: "その結果"
     },
     {
       en: "roughly",
-      ja: "（副）おおよそ"
+      ja: "おおよそ"
     },
     {
       en: "barely",
-      ja: "（副）かろうじて"
+      ja: "かろうじて"
     },
     {
       en: "typically",
-      ja: "（副）通常"
+      ja: "通常"
     },
     {
       en: "strictly",
-      ja: "（副）厳格に"
+      ja: "厳格に"
     },
     {
       en: "likewise",
-      ja: "（副）同じように"
+      ja: "同じように"
     },
     {
       en: "legally",
-      ja: "（副）法的に"
+      ja: "法的に"
     },
     {
       en: "beforehand",
-      ja: "（副）前もって"
+      ja: "前もって"
     },
     {
       en: "unfairly",
-      ja: "（副）不当に"
+      ja: "不当に"
     },
     {
       en: "despite",
