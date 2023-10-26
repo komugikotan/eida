@@ -1,0 +1,196 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(reset.css);
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight:700
+}
+.main{
+    width: 100%;
+    height: calc(100vh - 101px);
+    background-color: #a9ceec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+#ja{
+    font-size: 6.5vmax;
+}
+#en{
+    font-size: 3.5vmax;
+}
+#ty{
+    font-size: 2vmax;
+}
+
+
+
+
+.footer-001 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 10px 10px;
+    background-color: #2589d0;
+}
+
+.footer-001__logo {
+    width: 130px;
+    height: 30px;
+}
+
+.footer-001__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1.5em;
+    list-style-type: none;
+    margin: 0 0 .5em;
+    padding: .5em;
+}
+
+.footer-001__link {
+    color: #fff;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.footer-001__copyright {
+    margin: 0;
+    color: #ffffffb3;
+    font-weight: 200;
+    font-size: .8em;
+}
+
+
+
+
+.overlay {
+    position: fixed; /* 背景 */
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .pop-up {
+    display: none;
+  }
+  .pop-up:checked + .overlay {
+    visibility: visible;
+    opacity: 1;
+    z-index: 100000;
+    background-color: #000000E0;
+    width: 100%;
+  }
+  .popWindow {
+    max-height: 95%;
+    max-width: 95%;  
+    transform: scale(0.3); /* クリックした直後のサイズ */
+    z-index: 100010;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 10px auto;
+    padding: 4px 10px;
+    text-align: center;
+    transition: all 0.5s 0s ease;
+    display: flex; /* 中央 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pop-up:checked + .overlay .popWindow {
+    transform: scale(1); /* 最終的なサイズ */
+    height: 100%;
+  }
+  .pbox {
+    display: flex; /* 中央 */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px;
+    overflow: auto;
+    width: 90%;
+  }
+  .popWindow .ptitle {
+    font-size: 15px;
+    margin: 8px;
+    color: #FFF;
+  }
+  .popWindow .close {
+    position: relative;
+    float: right;
+    transition: all 5ms;
+    font-size: 24px;
+    line-height: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    padding: 2px;
+  }
+  .popWindow .close:hover {
+    color: #06D85F;
+  }
+  .pbox::-webkit-scrollbar-track {
+    background: none;
+  }
+  .pbox::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .pbox::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5px;
+  }
+  .clickable:hover {
+    cursor: pointer;
+  }
+  @media screen and (max-width: 700px){
+    .pop-up:checked + .overlay {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
+
+  .box-018 {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    padding: 1em calc(1.5em + 9px);
+    border-top: 1px solid #2589d0;
+    border-bottom: 1px solid #2589d0;
+    color: #333;
+    background-color: #fff;
+}
+
+
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+
+table th{
+  border-bottom: solid 2px #fb5144;
+  padding: 10px 0;
+}
+
+table td{
+  border-bottom: solid 2px #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+  #width_100{
+    width: 50%;
+  }
+  .c{
+    text-align: center;
+    color: #FFF;
+  }
