@@ -6,7 +6,7 @@ html{
 }
 .main{
     width: 100%;
-    height: calc(100vh - 101px);
+    height: calc(100vh);
     background-color: #a9ceec;
     display: flex;
     align-items: center;
